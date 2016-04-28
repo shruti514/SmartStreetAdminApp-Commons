@@ -27,6 +27,7 @@
 		A1280F3B1CD055BE0012D0DB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1280F321CD055BE0012D0DB /* StoreKit.framework */; };
 		A1280F3C1CD055BE0012D0DB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1280F331CD055BE0012D0DB /* SystemConfiguration.framework */; };
 		A1280F3E1CD05A110012D0DB /* MaintenanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1280F3D1CD05A110012D0DB /* MaintenanceTableViewCell.swift */; };
+		A1C0B9B81CD14B6C00B2892D /* MaintenanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0B9B71CD14B6C00B2892D /* MaintenanceDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		A1280F321CD055BE0012D0DB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A1280F331CD055BE0012D0DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A1280F3D1CD05A110012D0DB /* MaintenanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceTableViewCell.swift; sourceTree = "<group>"; };
+		A1C0B9B71CD14B6C00B2892D /* MaintenanceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				A1280F1A1CD00D8E0012D0DB /* MaintenanceRecords.swift */,
 				A1280F151CCFFEE90012D0DB /* MaintenanceTableViewController.swift */,
 				A1280F3D1CD05A110012D0DB /* MaintenanceTableViewCell.swift */,
+				A1C0B9B71CD14B6C00B2892D /* MaintenanceDetailViewController.swift */,
 			);
 			name = Maintenance;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				A1280F1B1CD00D8E0012D0DB /* MaintenanceRecords.swift in Sources */,
 				A1280F161CCFFEE90012D0DB /* MaintenanceTableViewController.swift in Sources */,
+				A1C0B9B81CD14B6C00B2892D /* MaintenanceDetailViewController.swift in Sources */,
 				69CEEFD51CC996C3003C986A /* ViewController.swift in Sources */,
 				A1280F1D1CD00DF70012D0DB /* SmartThings.swift in Sources */,
 				69CEEFD31CC996C3003C986A /* AppDelegate.swift in Sources */,

@@ -10,21 +10,18 @@ import UIKit
 
 class SmartThings {
     
-    var id:String
-    var status:Bool
+    var id:String    
     
-    init(id:String, status:Bool){
+    init(id:String){
         self.id = id
-        self.status = status
-        
     }
 
 }
 
 
 class SmartTrees: SmartThings {
-     override init(id:String, status:Bool){
-        super.init(id: id, status: status)
+     override init(id:String){
+        super.init(id: id)
     }
     
 }
@@ -32,11 +29,10 @@ class SmartTrees: SmartThings {
 
 class Sensors: SmartThings {
    
-    var treeId:String
+    var treeId:String!
     
-     init(id:String, status:Bool, treeId:String){
-        self.treeId = treeId
-        super.init(id: id, status: status)
+     override init(id:String){
+        super.init(id: id)
     }
     
 }

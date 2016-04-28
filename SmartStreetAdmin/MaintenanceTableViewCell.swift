@@ -12,15 +12,9 @@ class MaintenanceTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     
-    @IBAction func updateButtonPressed(sender: AnyObject) {
-        
-    }
-    
+   
+    @IBOutlet weak var updateButton: UIButton!
  
-    @IBAction func deleteButtonPressed(sender: AnyObject) {
-        
-        
-    }
-    
+   
     
 }
