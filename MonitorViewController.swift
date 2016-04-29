@@ -39,6 +39,27 @@ class MonitorViewController: UITableViewController {
             print(treeObjectIds)
             print(statusObjectIds)
         }
+        
+        
+        let treeRecord = PFQuery(className: "TreeDeployment")
+        treeRecord.findObjectsInBackgroundWithBlock {(objects: [PFObject]?, error: NSError?) -> Void in
+            
+            if error == nil {
+                if let objects = objects {
+                    for object in objects {
+                    
+                        treeObjectIds.append(String(object.valueForKey("TreeId")!))
+                        statusObjectIds.append(String(object.valueForKey("Status")!))
+                    }
+                }
+            } else {
+                print("Error: \(error!) \(error!.userInfo)")
+            }
+            
+            print(treeObjectIds)
+            print(statusObjectIds)
+        }
+
     }
     
 }
