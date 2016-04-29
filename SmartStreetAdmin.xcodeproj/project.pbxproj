@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4844D7DB1CD3E66500F41893 /* MonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844D7DA1CD3E66500F41893 /* MonitorViewController.swift */; };
 		69CEEFD31CC996C3003C986A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CEEFD21CC996C3003C986A /* AppDelegate.swift */; };
 		69CEEFD51CC996C3003C986A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CEEFD41CC996C3003C986A /* ViewController.swift */; };
 		69CEEFD81CC996C3003C986A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CEEFD61CC996C3003C986A /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4844D7DA1CD3E66500F41893 /* MonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonitorViewController.swift; path = ../MonitorViewController.swift; sourceTree = "<group>"; };
 		69CEEFCF1CC996C3003C986A /* SmartStreetAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartStreetAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CEEFD21CC996C3003C986A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69CEEFD41CC996C3003C986A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		A1280F141CCFFD000012D0DB /* Maintenance */ = {
 			isa = PBXGroup;
 			children = (
+				4844D7DA1CD3E66500F41893 /* MonitorViewController.swift */,
 				A1280F1A1CD00D8E0012D0DB /* MaintenanceRecords.swift */,
 				A1280F151CCFFEE90012D0DB /* MaintenanceTableViewController.swift */,
 				A1280F3D1CD05A110012D0DB /* MaintenanceTableViewCell.swift */,
@@ -223,6 +226,7 @@
 				A1C0B9B81CD14B6C00B2892D /* MaintenanceDetailViewController.swift in Sources */,
 				69CEEFD51CC996C3003C986A /* ViewController.swift in Sources */,
 				A1280F1D1CD00DF70012D0DB /* SmartThings.swift in Sources */,
+				4844D7DB1CD3E66500F41893 /* MonitorViewController.swift in Sources */,
 				69CEEFD31CC996C3003C986A /* AppDelegate.swift in Sources */,
 				A1280F3E1CD05A110012D0DB /* MaintenanceTableViewCell.swift in Sources */,
 			);
