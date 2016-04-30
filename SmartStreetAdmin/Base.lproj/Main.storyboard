@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yvL-gt-ftj">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yvL-gt-ftj">
+>>>>>>> 20d0bb5125ee973f1662b39c0b60db9f18bacfd7
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -165,7 +169,7 @@
         <!--Monitor-->
         <scene sceneID="Qix-jG-YmE">
             <objects>
-                <tableViewController id="skp-Dq-GxV" sceneMemberID="viewController">
+                <tableViewController id="skp-Dq-GxV" customClass="MonitorViewController" customModule="SmartStreetAdmin" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="VCp-6u-WmL">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1514,8 +1518,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="8YJ-47-GOh"/>
         <segue reference="QVr-6Y-i9W"/>
         <segue reference="qFc-ce-LeD"/>
+=======
+        <segue reference="c2y-20-EAm"/>
+        <segue reference="tE7-56-Rjq"/>
+        <segue reference="QVr-6Y-i9W"/>
+>>>>>>> 20d0bb5125ee973f1662b39c0b60db9f18bacfd7
     </inferredMetricsTieBreakers>
 </document>
