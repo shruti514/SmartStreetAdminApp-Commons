@@ -12,6 +12,8 @@
 		69CEEFD81CC996C3003C986A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CEEFD61CC996C3003C986A /* Main.storyboard */; };
 		69CEEFDA1CC996C3003C986A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CEEFD91CC996C3003C986A /* Assets.xcassets */; };
 		69CEEFDD1CC996C3003C986A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CEEFDB1CC996C3003C986A /* LaunchScreen.storyboard */; };
+		69F6666C1CD2FD8700C90A98 /* RegisterTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6666B1CD2FD8700C90A98 /* RegisterTree.swift */; };
+		69F6666E1CD2FDB000C90A98 /* RegisterSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6666D1CD2FDB000C90A98 /* RegisterSensor.swift */; };
 		A1280F161CCFFEE90012D0DB /* MaintenanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1280F151CCFFEE90012D0DB /* MaintenanceTableViewController.swift */; };
 		A1280F1B1CD00D8E0012D0DB /* MaintenanceRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1280F1A1CD00D8E0012D0DB /* MaintenanceRecords.swift */; };
 		A1280F1D1CD00DF70012D0DB /* SmartThings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1280F1C1CD00DF70012D0DB /* SmartThings.swift */; };
@@ -38,6 +40,8 @@
 		69CEEFD91CC996C3003C986A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69CEEFDC1CC996C3003C986A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69CEEFDE1CC996C3003C986A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F6666B1CD2FD8700C90A98 /* RegisterTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTree.swift; sourceTree = "<group>"; };
+		69F6666D1CD2FDB000C90A98 /* RegisterSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterSensor.swift; sourceTree = "<group>"; };
 		A1280F151CCFFEE90012D0DB /* MaintenanceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceTableViewController.swift; sourceTree = "<group>"; };
 		A1280F1A1CD00D8E0012D0DB /* MaintenanceRecords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintenanceRecords.swift; sourceTree = "<group>"; };
 		A1280F1C1CD00DF70012D0DB /* SmartThings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartThings.swift; sourceTree = "<group>"; };
@@ -98,9 +102,12 @@
 		69CEEFD11CC996C3003C986A /* SmartStreetAdmin */ = {
 			isa = PBXGroup;
 			children = (
+				69F6666A1CD2FD6A00C90A98 /* Registration */,
 				A1280F171CD000110012D0DB /* Model */,
 				A1280F141CCFFD000012D0DB /* Maintenance */,
 				69CEEFD21CC996C3003C986A /* AppDelegate.swift */,
+				69F6666B1CD2FD8700C90A98 /* RegisterTree.swift */,
+				69F6666D1CD2FDB000C90A98 /* RegisterSensor.swift */,
 				69CEEFD41CC996C3003C986A /* ViewController.swift */,
 				69CEEFD61CC996C3003C986A /* Main.storyboard */,
 				69CEEFD91CC996C3003C986A /* Assets.xcassets */,
@@ -108,6 +115,13 @@
 				69CEEFDE1CC996C3003C986A /* Info.plist */,
 			);
 			path = SmartStreetAdmin;
+			sourceTree = "<group>";
+		};
+		69F6666A1CD2FD6A00C90A98 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Registration;
 			sourceTree = "<group>";
 		};
 		A1280F141CCFFD000012D0DB /* Maintenance */ = {
@@ -219,10 +233,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1280F1B1CD00D8E0012D0DB /* MaintenanceRecords.swift in Sources */,
+				69F6666E1CD2FDB000C90A98 /* RegisterSensor.swift in Sources */,
 				A1280F161CCFFEE90012D0DB /* MaintenanceTableViewController.swift in Sources */,
 				A1C0B9B81CD14B6C00B2892D /* MaintenanceDetailViewController.swift in Sources */,
 				69CEEFD51CC996C3003C986A /* ViewController.swift in Sources */,
 				A1280F1D1CD00DF70012D0DB /* SmartThings.swift in Sources */,
+				69F6666C1CD2FD8700C90A98 /* RegisterTree.swift in Sources */,
 				69CEEFD31CC996C3003C986A /* AppDelegate.swift in Sources */,
 				A1280F3E1CD05A110012D0DB /* MaintenanceTableViewCell.swift in Sources */,
 			);
