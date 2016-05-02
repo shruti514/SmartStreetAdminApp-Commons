@@ -241,12 +241,11 @@
 				A1C0B9B81CD14B6C00B2892D /* MaintenanceDetailViewController.swift in Sources */,
 				69CEEFD51CC996C3003C986A /* ViewController.swift in Sources */,
 				A1280F1D1CD00DF70012D0DB /* SmartThings.swift in Sources */,
-<<<<<<< HEAD
+
 				69F6666C1CD2FD8700C90A98 /* RegisterTree.swift in Sources */,
-=======
+
 				4844D7DB1CD3E66500F41893 /* MonitorViewController.swift in Sources */,
->>>>>>> 20d0bb5125ee973f1662b39c0b60db9f18bacfd7
-				69CEEFD31CC996C3003C986A /* AppDelegate.swift in Sources */,
+ 				69CEEFD31CC996C3003C986A /* AppDelegate.swift in Sources */,
 				A1280F3E1CD05A110012D0DB /* MaintenanceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
